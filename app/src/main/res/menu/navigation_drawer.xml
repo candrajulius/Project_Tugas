@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+
+        <item android:id="@+id/nav_beranda"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/beranda" />
+    </group>
+
+    <item android:title="Transaksi" android:checkable="true">
+        <menu>
+            <item android:id="@+id/nav_transaksi_pembelian"
+                android:title="@string/transaksi_pembelian"
+                android:icon="@drawable/ic_baseline_list_alt_24"
+                />
+
+            <item android:title="@string/transaksi_penjualan"
+                android:icon="@drawable/ic_baseline_list_alt_24"
+                android:id="@+id/nav_transaksi_penjualan" />
+
+        </menu>
+    </item>
+
+    <item android:title="@string/kelola_data">
+        <menu>
+            <item android:title="@string/data_barang"
+                android:icon="@drawable/data"
+                android:id="@+id/data_barang" />
+
+            <item android:title="@string/data_penjualan"
+                android:icon="@drawable/data"
+                android:id="@+id/data_penjualan" />
+
+            <item android:title="@string/data_stok_barang"
+                android:icon="@drawable/data"
+                android:id="@+id/data_stock" />
+        </menu>
+    </item>
+
+
+    <item android:title="@string/lain_lain">
+
+        <menu>
+            <item android:id="@+id/setting"
+                android:title="@string/pengaturan"
+                android:icon="@drawable/ic_baseline_settings_24" />
+
+            <item android:title="@string/tentang"
+                android:id="@+id/about"
+                android:icon="@drawable/ic_baseline_error_outline_24"
+                />
+
+            <item android:title="@string/keluar"
+                android:id="@+id/log_out"
+                android:icon="@drawable/ic_baseline_login_24"/>
+
+        </menu>
+
+    </item>
+
+
+</menu>

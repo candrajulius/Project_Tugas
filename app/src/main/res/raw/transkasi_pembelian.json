@@ -1,0 +1,72 @@
+{
+  "message": "success",
+  "error": false,
+  "data": [
+    {
+      "tanggal": "30 -05-2022 ",
+      "suplier": "Keenstore",
+      "status": "Jatuh Tempo",
+      "total": "Rp 2,400,000,00"
+    },
+    {
+      "tanggal": "30 -05-2022 ",
+      "suplier": "sup.msglowbandung",
+      "status": "Lunas Dibayar",
+      "total": "Rp 1,800,000,00"
+    },
+    {
+      "tanggal": "20-05-2022 ",
+      "suplier": "Keenstore",
+      "status": "Lunas Dibayar",
+      "total": "Rp 3,060,000,00"
+    },
+    {
+      "tanggal": "19-06-2022 ",
+      "suplier": "Keenstore",
+      "status": "Belum Dibayar",
+      "total": "Rp 560,000,00"
+    }
+  ],
+  "data_stock": [
+    {
+      "nama": "Paket Acne",
+      "kategori": "Wajah Berjerawat",
+      "stock": "163"
+    },
+    {
+      "nama": "Paket Whitening",
+      "kategori": "Wajah Normal",
+      "stock": "182"
+    },
+    {
+      "nama": "Paket Luminous",
+      "kategori": "Wajah Kering",
+      "stock": "142"
+    },
+    {
+      "nama": "Paket Ultimate",
+      "kategori": "Wajah Flek/Keriput",
+      "stock": "130"
+    },
+    {
+      "nama": "Body Serum",
+      "kategori": "Kulit Normal",
+      "stock": "140"
+    },
+    {
+      "nama": "Body Lotion",
+      "kategori": "Kulit Normal",
+      "stock": "130"
+    },
+    {
+      "nama": "Red Jelly",
+      "kategori": "Wajah Normal",
+      "stock": "110"
+    },
+    {
+      "nama": "Jj Glow",
+      "kategori": "Kulit Normal",
+      "stock": "113"
+    }
+  ]
+}

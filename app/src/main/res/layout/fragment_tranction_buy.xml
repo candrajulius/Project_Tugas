@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:id="@+id/mc_belom_bayar"
+        android:layout_marginEnd="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp"
+        android:elevation="5dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="match_parent"
+            >
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="0dp"
+                android:id="@+id/container_belom_bayar"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:text="Pemgelian Belum Di Bayar"
+                />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/container_belom_bayar"
+                app:layout_constraintStart_toStartOf="@id/container_belom_bayar"
+                app:layout_constraintEnd_toEndOf="@id/container_belom_bayar"
+                android:text="Rp 560,000,00.-"
+                android:textColor="@android:color/holo_orange_light" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:id="@+id/mc_jatuh_tempo"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintEnd_toEndOf="@id/mc_belom_bayar"
+        app:layout_constraintTop_toBottomOf="@id/mc_belom_bayar"
+        app:layout_constraintStart_toStartOf="@id/mc_belom_bayar">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="match_parent"
+            >
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="0dp"
+                android:id="@+id/containerJatuhTempo"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:text="Pembelian Jatuh Tempo"
+                />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/containerJatuhTempo"
+                app:layout_constraintStart_toStartOf="@id/containerJatuhTempo"
+                app:layout_constraintEnd_toEndOf="@id/containerJatuhTempo"
+                android:text="Rp 2.400.000,00"
+                android:textColor="@android:color/holo_red_light" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:id="@+id/mc_lunas_dibayar"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintEnd_toEndOf="@id/mc_jatuh_tempo"
+        app:layout_constraintTop_toBottomOf="@id/mc_jatuh_tempo"
+        app:layout_constraintStart_toStartOf="@id/mc_jatuh_tempo">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="match_parent"
+            >
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="0dp"
+                android:id="@+id/container_lunas_dibayar"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:text="Pelunasan Dibayar 30 Har Terakhir"
+                />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/container_lunas_dibayar"
+                app:layout_constraintStart_toStartOf="@id/container_lunas_dibayar"
+                app:layout_constraintEnd_toEndOf="@id/container_lunas_dibayar"
+                android:text="Rp 4.800.000,00"
+                android:textColor="@android:color/holo_green_light" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="0dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        tools:listitem="@layout/content_buy_item"
+        android:layout_height="0dp"
+        android:id="@+id/rvContainerBuy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mc_lunas_dibayar" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

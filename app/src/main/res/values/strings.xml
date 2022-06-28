@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Ms Glow</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="beranda">Beranda</string>
+    <string name="transaksi">Transaksi</string>
+    <string name="transaksi_pembelian">Transaksi Pembelian</string>
+    <string name="transaksi_penjualan">Transaksi Penjualan</string>
+    <string name="kelola_data">Kelola Data</string>
+    <string name="data_penjualan">Data Penjualan</string>
+    <string name="data_stok_barang">Data Stok</string>
+    <string name="lain_lain">Lain lain</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="tentang">Tentang</string>
+    <string name="keluar">Keluar</string>
+    <string name="confirm_policy">Dengan melanjutkan,anda mengetahui bahwa anda telah membaca dan menyetujui ketentuan layanan</string>
+    <string name="have_account">Sudah punya akun? Masuk</string>
+    <string name="daftar">Daftar</string>
+    <string name="login">Login</string>
+    <string name="data_barang">Data Barang</string>
+    <string name="password_not_same">Konfirmasi password tidak sama</string>
+</resources>

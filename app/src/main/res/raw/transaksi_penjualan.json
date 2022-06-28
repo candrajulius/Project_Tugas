@@ -1,0 +1,61 @@
+{
+  "message": "Success",
+  "error": false,
+  "data": [
+    {
+      "tanggal": "21 -06-2022 \n 10:05",
+      "nama_pelanggan": "Novie Ria",
+      "no_invoice": "IV.010.1201.00006 \n ID:010.1201.00006ICYd",
+      "hasil": "Rp 598,000,00.-",
+      "status": "Sukses Diterima"
+    },
+    {
+      "tanggal": "29 -05-2022 \n 12:00",
+      "nama_pelanggan": "Rahmayanti",
+      "no_invoice": "IV.003.112.07806 \n ID:003.112.07806rstY",
+      "hasil": "Rp 300,000,00.-",
+      "status": "Sukses Diterima"
+    },
+    {
+      "tanggal": "27 -05-2022 \n 14:15",
+      "nama_pelanggan": "Natasya",
+      "no_invoice": "IV.202.000.1237 \n ID:IV.202.000.1237RicT",
+      "hasil": "Rp 617,000,00.-",
+      "status": "Sukses Diterima"
+    },
+    {
+      "tanggal": "20-05-2022 \n 10:17",
+      "nama_pelanggan": "Novie Ria",
+      "no_invoice": "IV.004.1221.51003 \n ID:.004.1221.51003ccTY",
+      "hasil": "Rp 856,000,00.-",
+      "status": "Sukses Diterima"
+    }
+  ],
+  "data_barang": [
+    {
+      "id": "ID:010.1201.00006ICYd",
+      "nama": "Paket Acne",
+      "stok": "163"
+    },
+    {
+      "id": "ID:003.112.07806rstY",
+      "nama": "Paket Whitening",
+      "stok": "182"
+    },
+    {
+      "id": "ID:IV.202.000.1237RicT",
+      "nama": "Paket Luminous",
+      "stok": "142"
+    },
+    {
+      "id": "ID:.004.1221.51003ccTY",
+      "nama": "Paket Ultimate",
+      "stok": "130"
+    },
+    {
+      "id": "ID:270.0090.12001rRxz",
+      "nama": "Body Serum",
+      "stok": "140"
+    }
+  ]
+}

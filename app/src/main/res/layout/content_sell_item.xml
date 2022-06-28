@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    app:cardElevation="5dp"
+    android:clickable="true"
+    android:focusable="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:layout_height="match_parent">
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tgl_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Tanggal"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.044"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tgl_content"
+            android:layout_width="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"
+            android:text="Isi Tanggal"
+            android:textAlignment="textEnd"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@id/tgl_container"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.332"
+            app:layout_constraintStart_toEndOf="@id/tgl_container"
+            app:layout_constraintTop_toTopOf="@+id/tgl_container"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Nama pelanggan"
+            android:id="@+id/suplierContainer"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/tgl_container"
+            app:layout_constraintHorizontal_bias="0.125"
+            app:layout_constraintStart_toStartOf="@id/tgl_container"
+            app:layout_constraintTop_toBottomOf="@id/tgl_container" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/contentSuplier"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Isi pelanggan"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/suplierContainer"
+            app:layout_constraintEnd_toEndOf="@+id/tgl_content"
+            app:layout_constraintHorizontal_bias="0.48"
+            app:layout_constraintStart_toStartOf="@id/tgl_content"
+            app:layout_constraintTop_toBottomOf="@id/tgl_content" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/contaienrStatus"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="@id/suplierContainer"
+            app:layout_constraintEnd_toEndOf="@+id/suplierContainer"
+            app:layout_constraintTop_toBottomOf="@id/suplierContainer" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Isi Status"
+            android:textAlignment="center"
+            android:id="@+id/contentStatus"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintBottom_toBottomOf="@id/contaienrStatus"
+            app:layout_constraintEnd_toEndOf="@id/contentSuplier"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@id/contentSuplier"
+            app:layout_constraintTop_toBottomOf="@id/contentSuplier"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="No Invoice"
+            android:id="@+id/containerInvoice"
+            app:layout_constraintTop_toBottomOf="@id/contaienrStatus"
+            android:layout_marginTop="13dp"
+            app:layout_constraintStart_toStartOf="@id/contaienrStatus"
+            app:layout_constraintEnd_toEndOf="@id/contaienrStatus"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Isi Invoice"
+            android:id="@+id/contentTotal"
+            android:layout_marginTop="13dp"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@id/containerInvoice"
+            app:layout_constraintEnd_toEndOf="@id/contentStatus"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@id/contentStatus"
+            app:layout_constraintTop_toBottomOf="@id/contentStatus"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/containerHasil"
+            android:text="Hasil"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@id/containerInvoice"
+            app:layout_constraintStart_toStartOf="@id/containerInvoice"
+            app:layout_constraintEnd_toEndOf="@id/containerInvoice"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="0dp"
+            android:text="Isi hasil"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:id="@+id/contentHasil"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/containerHasil"
+            app:layout_constraintEnd_toEndOf="@id/contentTotal"
+            app:layout_constraintStart_toStartOf="@id/contentTotal"
+            app:layout_constraintTop_toBottomOf="@id/contentTotal"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</com.google.android.material.card.MaterialCardView>
